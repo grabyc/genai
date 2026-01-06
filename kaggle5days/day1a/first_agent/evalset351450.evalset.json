@@ -1,0 +1,69 @@
+{
+  "eval_set_id": "evalset351450",
+  "name": "evalset351450",
+  "eval_cases": [
+    {
+      "eval_id": "casee31e46",
+      "conversation": [
+        {
+          "invocation_id": "e-c9729295-5b9c-4251-934b-cdda8de2b03e",
+          "user_content": {
+            "parts": [
+              {
+                "text": "What is Agent Development Kit from Google? What languages is the SDK available in?"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "While Google does not market a specific product called \"Agent Development Kit\" under that exact name, the platform that most closely fits the description of an \"Agent Development Kit\" for building conversational AI agents from Google is **Dialogflow**.\n\n**What is Dialogflow?**\n\nDialogflow is Google's development suite for building conversational interfaces for various applications and platforms. It allows developers to create natural language understanding (NLU) experiences to build virtual agents (often called chatbots, voice bots, or conversational agents) that can understand, process, and respond to user input in natural language.\n\nKey features and capabilities include:\n\n*   **Natural Language Understanding (NLU):** Converts user's natural language input into structured data.\n*   **Intent Recognition:** Identifies the user's goal or intention from their input.\n*   **Entity Extraction:** Pulls out specific pieces of information (entities) from the user's input.\n*   **Context Management:** Maintains the context of a conversation for more natural and continuous interactions.\n*   **Integration:** Can be integrated with various platforms like Google Assistant, Slack, Facebook Messenger, websites, mobile apps, and more.\n*   **Different Editions:** Dialogflow offers two main editions:\n    *   **Dialogflow ES (Essentials):** The standard, widely used edition suitable for many applications.\n    *   **Dialogflow CX (Customer Experience):** A more advanced and complex version designed for large-scale enterprise conversations, offering more visual flow control and state management.\n\nEssentially, Dialogflow provides the tools and infrastructure to design, build, and deploy intelligent agents that can engage in human-like conversations.\n\n**What languages are the SDKs available in?**\n\nDialogflow provides client libraries (SDKs) and APIs to interact with its services, allowing developers to integrate their applications with Dialogflow agents. The primary languages for the official client libraries for Dialogflow (both ES and CX) typically include:\n\n*   **Python**\n*   **Node.js**\n*   **Java**\n*   **C#**\n*   **Go**\n*   **PHP**\n*   **Ruby**\n\nAdditionally, since Dialogflow also provides **REST and gRPC APIs**, you can interact with it using virtually any programming language that can make HTTP requests or use gRPC clients, even if an official client library isn't available for that specific language."
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1767727397.300311
+        }
+      ],
+      "session_input": {
+        "app_name": "first_agent",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1767727620.6524296
+    },
+    {
+      "eval_id": "case890372",
+      "conversation": [
+        {
+          "invocation_id": "e-31b23071-683b-466c-9570-045e6419c4d7",
+          "user_content": {
+            "parts": [
+              {
+                "text": "What is Agent Development Kit from Google? What languages is the SDK available in?"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "The **Agent Development Kit (ADK)** from Google is a set of tools, libraries, and frameworks designed to help developers create and integrate generative AI agents into their applications and services. It's particularly focused on making it easier to build intelligent agents that can understand natural language, engage in multi-turn conversations, perform actions, and leverage various AI models (like Gemini) and services.\n\nEssentially, the ADK aims to simplify the complex process of:\n*   **Orchestrating AI models**: Connecting to and managing various generative AI models.\n*   **Tool Use**: Enabling agents to use external tools (APIs, databases, web searches) to fetch information or perform actions.\n*   **Memory Management**: Giving agents the ability to remember past interactions and context.\n*   **Prompt Engineering**: Providing structures and helpers for designing effective prompts.\n*   **Evaluation and Deployment**: Tools for testing, debugging, and deploying agents.\n\nIt's part of Google's broader AI platform, enabling developers to build sophisticated conversational and task-oriented agents.\n\nRegarding the **languages the SDK is available in**, Google typically provides its SDKs and client libraries for AI and cloud services in several popular languages to cater to a wide developer audience. While specific availability can evolve, the primary languages for Google's AI SDKs, including those relevant to an ADK, generally include:\n\n*   **Python**: Very common for AI/ML development due to its rich ecosystem of libraries.\n*   **Java**: Widely used in enterprise applications.\n*   **Node.js (JavaScript)**: Popular for web development and backend services.\n*   **Go**: Google's own language, known for its performance and concurrency.\n*   **C# (.NET)**: Used by developers in the Microsoft ecosystem.\n\nWhen building agents, developers might also interact with APIs directly using any language capable of making HTTP requests, but the SDKs provide a more integrated and idiomatic way to interact with the underlying services."
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1767729068.439695
+        }
+      ],
+      "session_input": {
+        "app_name": "first_agent",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1767729379.7167764
+    }
+  ],
+  "creation_timestamp": 1767727610.7080085
+}
